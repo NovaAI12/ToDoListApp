@@ -42,7 +42,7 @@ class ToDoList:
             for i in data:
                 if self.task in i:
                     n = 1
-                    return "complete" if "complete" in i else "incomplete"
+                    return "complete" if "incomplete" not in i else "incomplete"
 
             return f"{self.task} not found"
     def complete(self):
