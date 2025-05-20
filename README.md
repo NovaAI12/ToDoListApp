@@ -15,5 +15,5 @@ This is a simple console-based to-do list application written in Python.
 Make sure you have Python installed, then run:
 
 ```bash
-python main.py
+python userToDoList.py
 # ToDoListApp
